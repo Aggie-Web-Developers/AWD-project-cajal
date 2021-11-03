@@ -188,6 +188,10 @@ label:focus,
 /***** /Footer/ *****/
 
 /***** /Home Page/ *****/
+.button {
+	background-color: #27968c;
+	color: #fff;
+}
+/***** /Login Page/ *****/
 
-/***** 404 Page *****/
 /***** /404 Page/ *****/

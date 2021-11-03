@@ -13,6 +13,10 @@ router.get('/login', function (req, res) {
 	res.render('login');
 });
 
+router.get('/admin', function (req, res) {
+	res.render('admin');
+});
+
 router.get('/terms-and-conditions', function (req, res) {
 	res.render('terms-and-conditions');
 });
