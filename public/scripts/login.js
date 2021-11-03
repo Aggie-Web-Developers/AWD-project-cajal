@@ -1,20 +1,11 @@
-// JS File for Index View
+// JS File for Login View
 
 function handleSubmit(event) {
     event.preventDefault();
-    const url = event.target[0].value;
-    const shortened = event.target[1].value;
-    console.log(url + " " + shortened);
+    const username = event.target[0].value;
+    const password = event.target[1].value;
+    console.log(username + " " + password);
     window.location.href = '/admin';
-    // fetch("/url", {
-    //     method: "POST", 
-    //     body: JSON.stringify({url, shortened}), 
-    //     headers: {"Content-Type": "application/json"}
-    // }).then(function (response) {
-    //     response.json();
-    // }).then(function (data) {
-    //     console.log(data);
-    // });
 }
 
 document.getElementById("login").addEventListener("submit", handleSubmit);
