@@ -9,6 +9,10 @@ router.get('/', function (req, res) {
 	res.render('index');
 });
 
+router.get('/login', function (req, res) {
+	res.render('login');
+});
+
 router.get('/terms-and-conditions', function (req, res) {
 	res.render('terms-and-conditions');
 });
