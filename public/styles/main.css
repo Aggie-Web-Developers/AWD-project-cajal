@@ -98,7 +98,7 @@ label:focus,
 	transition: background-color 0.4s linear;
 	z-index: 10;
 	font-size: 1rem;
-	background-color: #27968c;
+	background-color: #fff;
 }
 
 #navbar.scrolled {
@@ -110,6 +110,7 @@ label:focus,
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .show > .nav-link {
+	color: #18191F;
 	font-weight: bold;
 	transition: color 0.4s linear;
 }
@@ -128,6 +129,11 @@ label:focus,
 	#navRight {
 		padding-left: 0;
 	}
+
+	body {
+		padding-top: 260px;
+	}
+	
 	#navLeft {
 		padding-left: 0;
 	}
@@ -182,8 +188,8 @@ label:focus,
 }
 
 .footer {
-	background-color: #27968c;
-	color: #fff;
+	background-color: #0B0D17;
+	color: #EEEFF4;
 }
 /***** /Footer/ *****/
 
