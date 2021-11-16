@@ -1,19 +1,22 @@
 <div id="divNav" class="navbar-fixed-top page-banner">
 	<nav class="navbar navbar-expand-lg navbar-dark sticky" id="navbar">
-		<div class="row mr-auto order-0">
-			<div class="row justify-content-center align-middle flex-vert-center ml-2">
-				<a href="/">
-					<img src="/images/cajal-logo.png" class="mx-2" style="width: 66px; height: 66px;">
-					<a class="text-center" href="/" style="font-family: Lusitana; font-size: 22px; color: #18191F; text-decoration: none;">Cajal Club</a>
-				</a>
-				<ul class="navbar-nav mx-4" style="font-family: Manrope; font-size: 14px; color: #18191F">
-					<li class="nav-item active">
-						<a class="nav-link" href="/login">Login</a>
-					</li>
-				</ul>
-			</div>
+		<div class="row w-100 align-middle ml-2 order-0">
+			<span href="/">
+				<img src="/images/cajal-logo.png" style="width: 66px; height: 66px;">
+				<a class="text-center ml-1" href="/" style="font-family: Lusitana; font-size: 22px; color: #18191F; text-decoration: none;">Cajal Club</a>
+				<a class="text-center ml-4" href="/login" style="font-family: Manrope; font-size: 14px; font-weight: bold; color: #18191F; text-decoration: none;">Login</a>
+			</span>
+			<button
+				class="navbar-toggler ml-auto float-right"
+				type="button"
+				data-toggle="collapse"
+				data-target=".dual-collapse2"
+				style="margin-top: 11px;"
+				aria-label="Expand Navigation Options">
+				<span class="navbar-toggler-icon" style="color: black">X</span>
+			</button>
 		</div>
-		<div class="navbar-collapse order-3 dual-collapse2">
+		<div id="navRight" class="navbar-collapse collapse order-3 dual-collapse2">
 			<ul class="navbar-nav ml-auto" style="font-family: Manrope; font-size: 14px; color: #18191F">
 				<li class="nav-item active mx-2">
 					<a class="nav-link" href="/events">Events</a>
