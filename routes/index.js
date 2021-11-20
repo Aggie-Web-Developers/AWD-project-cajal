@@ -9,6 +9,10 @@ router.get('/', function (req, res) {
 	res.render('index');
 });
 
+router.get('/prizes', function (req, res) {
+	res.render('prizes');
+});
+
 router.get('/login', function (req, res) {
 	res.render('login');
 });
