@@ -1,3 +1,5 @@
+// SERVER //
+
 const express = require('express');
 const router = express.Router();
 const flash = require('express-flash');
@@ -15,6 +17,10 @@ router.get('/terms-and-conditions', function (req, res) {
 
 router.get('/privacy-policy', function (req, res) {
 	res.render('privacy-policy');
+});
+
+router.get('/prizes', function (req, res) {
+	res.render('prizes');
 });
 
 // router.get('/sitemap.xml', function (req, res) {
