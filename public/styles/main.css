@@ -191,3 +191,39 @@ label:focus,
 
 /***** 404 Page *****/
 /***** /404 Page/ *****/
+
+/***** News Page *****/
+
+.speech-bubble {
+	position: relative;
+	background: #ffffff;
+	border-radius: .4em;
+	display: table-cell;
+	padding: 16px;
+	text-align: center;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 17px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	margin-left: -17px;
+	margin-bottom: -17px;
+}
+
+
+.announceRow {
+	display: table;
+	border-spacing: 20px;
+	width: 100%;
+}
+
+
+
+/***** /News Page/ *****/

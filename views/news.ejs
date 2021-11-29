@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('partials/header') %>
+
+	<body>
+		<%- include('partials/nav') %>
+
+		<div id="content" class="container">
+			<div class="container">
+				<h1>Recent Announcements</h1>
+				<div class="announceRow">
+					
+						<!--Card with Date/Registration-->
+						
+						<div class="shadow-lg speech-bubble">
+							<H1>Announcement 1</H1>
+							<H2>Aug 20 & 21 2021</H2>
+							<H3>Title/Descritpion of event</H3>
+
+							<p>extra Info</p>
+
+							<span class="align-text-bottom"><a class="announceLink" href="">Details & Registration -></a></span>
+
+						</div>
+					
+					
+						<!--Card without Date or Registration-->
+						<div class="shadow-lg speech-bubble">
+							<H1>Announcement 2</H1>
+
+							<p>extra Info</p>
+
+							<span class="align-text-bottom"><a class="announceLink" href="">Details -></a></span>
+
+
+						</div>
+					
+					
+						<div class="shadow-lg speech-bubble">
+							<H1>Announcement 3</H1>
+							<p>extra Info</p>
+							<a class="announceLink" href="">Details -></a>
+						</div>
+					
+				</div>
+			</div>
+
+			<div class="container">
+				<h1>Archive</h1>
+				<h5>All announcements & posts made in the past, including past</h5>
+				<h5>events, awards, and images.</h5>
+				<!-- This will need to query once it is connected to database-->
+				<div class="row">
+					<div class="col-sm">
+						Announcement 4
+					</div>
+					<div class="col-sm">
+						Announcement 5
+					</div>
+					<div class="col-sm">
+						Announcement 6
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm">
+						Announcement 7
+					</div>
+					<div class="col-sm">
+						Announcement 8
+					</div>
+					<div class="col-sm">
+						Announcement 9
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="/scripts/news.js"></script>
+		<%- include('partials/footer') %>
+	</body>
+
+</html>
